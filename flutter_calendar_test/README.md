@@ -29,6 +29,7 @@ Pour récupérer les événements d'un calendrier, il faut juste mettre l'id du 
 ## Tâches en arrière plan :
 Pour la partie tâche en arrière plan j'ai utilisé :
 - [Workmanager](https://pub.dev/packages/workmanager)
+
 Premièrement, j'initialise ma tâche en arrière plan dans l'initState de mon MyHomePage.
 Pour cela, j'ai besoin d'une fonction, ainsi que de spécifier si c'est en mode débug. Il permet de mettre des notifications quand il travail ainsi que son état.
 Ensuite, on peut définir si c'est une tâche périodique avec un minimum de 15 minutes, ou si c'est une tâche unique.
